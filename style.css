@@ -1,6 +1,12 @@
 table, th, td {
-    border:2px solid "green";
-}
+    border: 1px solid rgb(47, 50, 255);
+    border-collapse: collapse;
+  }
 body{
-    background-image: url("https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.personal.psu.edu%2Fkbl5192%2Fjpg.jpg&imgrefurl=http%3A%2F%2Fwww.personal.psu.edu%2Fkbl5192%2Fjpg.htm&tbnid=GGE1ey1xDjEPWM&vet=12ahUKEwiLjquKgdL1AhWNsyoKHVw1DqIQMygLegUIARDtAQ..i&docid=NFJYj7_yoqlwhM&w=800&h=534&itg=1&q=jpg%20image&ved=2ahUKEwiLjquKgdL1AhWNsyoKHVw1DqIQMygLegUIARDtAQ")
+    background-color: "black";
 }
+th {
+    background-color: #04AA6D;
+    color: white;
+  }
+  tr:hover {background-color: lightgreen;}

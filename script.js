@@ -10,10 +10,13 @@ for (let i = 0; i < uzvaretajuSkaits; i++) {
     rand = Math.floor(rand);//noappalo uz leju
     //console.log(vardi[rand]);//izvada konsole
 
+    let bonus = balvas[rand];
+
     let uzvaretajs = vardi[rand];
     rindas.innerHTML += `
 <tr>
 <td>${i+1}</td>
 <td>${uzvaretajs}</td>
+<td>${bonus}</td>
 </tr>`
 }
